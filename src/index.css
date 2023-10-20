@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200;300;400;500;700&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,500;0,700;1,700;1,900&display=swap');
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ 
+font-family: 'Outfit', sans-serif;
+
+}
+
+body{
+  background-color: rgb(34, 33, 33);
+}
+
+h1,h4,p,a{
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.btn{
+  padding:12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: rgb(165, 144, 7);
+  color:#222;
+  border: 1px solid whitesmoke;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-light{
+  background: transparent;
+  color:whitesmoke;
+}
+
+.btn:hover{
+  background: gray;
+  color: whitesmoke;
+  transition: 0.3s;
+}

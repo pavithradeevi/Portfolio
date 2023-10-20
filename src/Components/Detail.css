@@ -1,0 +1,105 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: left;
+    /* margin: 300px 70px 300px; */
+    align-items: left;
+  }
+  
+  .contact__container {
+    /* border: 1px solid whitesmoke; */
+    position: relative;
+    left:30%;
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    justify-content: left;
+    padding: 30px;
+    margin-top: 20px;
+  }
+
+  /* .talk{
+    height: 100%;
+    width:100%;
+    
+  }
+  
+  .inputs{
+
+    width: 90%;
+
+    height: 80%;
+
+    margin: 0 auto;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+h1{
+
+  color: white;
+  text-align: center;
+  font-size: 50px;
+
+}
+
+p{
+  color: white;
+  text-align: center;
+
+}
+
+input{
+
+  width: 40%;
+
+  align-items: center;
+
+  padding: 20px;
+
+  outline: none;
+
+  border: none;
+
+} */
+/* 
+textarea{
+  width: 40%;
+
+  align-items: center;
+
+  padding: 20px;
+
+  outline: none;
+
+  border: none;
+
+} */
+  .contact__container > p {
+    font-size: 20px;
+    text-align: left;
+    padding-bottom: 30px;
+  }
+  
+  .contact__container > p > span {
+    color: #f64c08;
+  }
+  
+  .contact__icons > a > button > span > .MuiSvgIcon-root {
+    color: white;
+    font-size: 30px;
+  }
+  
+  .contact__icons > a > .MuiIconButton-root {
+    color: white !important;
+  }
